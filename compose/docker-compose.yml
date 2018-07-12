@@ -1,0 +1,6 @@
+web:
+  image: "${IMAGE_NAME}"
+  environment:
+   - NGINX_HOST=me.storm-net.se
+   - NGINX_PORT=80
+  command: /bin/bash -c "exec nginx -g 'daemon off;'"
