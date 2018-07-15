@@ -1,0 +1,12 @@
+{
+  "name": "me-site",
+  "version": "1.0.0",
+  "description": "A site all about me",
+  "main": "index.html",
+  "repository": "git@github.com:cruzzan/me-site.git",
+  "author": "Sebastian Hultstrand <sebastian@storm-net.se>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
