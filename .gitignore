@@ -3,3 +3,6 @@
 
 ## JS
 node_modules
+
+## Processed assets
+site/dist
