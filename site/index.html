@@ -3,6 +3,8 @@
 <head>
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -12,32 +14,49 @@
 	<meta charset="UTF-8">
 	<title>A site about me</title>
 </head>
-<body>
-	<div>
-		<!-- Nav -->
-		<div class="row no-margin-bottom" id="top-nav-row">
-			<div class="col m12  purple darken-1 ">
-				Page title
-			</div>
-		</div>
+<body class="indigo darken-3 white-text">
+
+	<!-- Navbar and menu -->
+	<header>
+		<nav class="top-nav grey darken-3 z-depth-2">
+
+		</nav>
+		<ul class="sidenav sidenav-fixed grey darken-3 z-depth-2">
+			<li class="logo">
+				<div class="profile">
+					<img class="center-align responsive-img circle" src="resources/img/profile.png">
+				</div>
+				<a href="#">
+					<h4 class="white-text border-bottom center-align">Sebastian</h4>
+				</a>
+			</li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li class="bold">
+				<a class="wave-effect grey-text text-lighten-2" href="https://github.com/cruzzan" target="_blank">
+					Github
+					<i class="material-icons right tiny grey-text text-lighten-2">open_in_new</i>
+				</a>
+			</li>
+			<li class="bold">
+				<a class="wave-effect grey-text text-lighten-2" href="https://www.linkedin.com/in/sebastian-hultstrand-15151a60" target="_blank">
+					LinkedIn
+					<i class="material-icons right tiny grey-text text-lighten-2">open_in_new</i>
+				</a>
+			</li>
+		</ul>
+	</header>
+
 
 		<!-- Content -->
-		<div class="row blue no-margin-bottom" id="main-wrapper">
-			<div class="col m3 purple lighten-4">
-				<p>Menu</p>
-			</div>
-			<div class="col m9" id="main-content">
-				<div class="container">
-					<p>Hello there.</p>
+		<main>
+				<div class="container ">
+					<div class="row col s12 m8 offset-m1 xl7 offset-xl1">
+						<p>Hello there.</p>
+					</div>
 				</div>
-			</div>
-		</div>
-
-		<!-- Footer -->
-		<div class="row  purple darken-4 no-margin-bottom" id="main-footer">
-			<h4>Footer</h4>
-		</div>
-	</div>
+		</main>
 
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
