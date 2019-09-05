@@ -16,6 +16,7 @@ Install
 
 ```
 $ yarn install
+$ npm run build
 $ make build
 $ make compose
 ```

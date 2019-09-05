@@ -1,24 +1,29 @@
-var gulp = require('gulp');
-var less = require('gulp-less');
-var cleancss = require('gulp-clean-css');
+const {src, dest, series} = require('gulp');
+const less = require('gulp-less');
+const cleancss = require('gulp-clean-css');
 
-gulp.task('default', ['less-to-css', 'minify-css', 'font-awesome']);
-
-gulp.task('less-to-css', function () {
-	gulp.src('./site/less/*.less')
+function compileLess() {
+	return src('./site/less/*.less')
 		.pipe(less())
-		.pipe(gulp.dest('./site/dist'));
-});
+		.pipe(dest('./site/dist'));
+}
 
-gulp.task('minify-css', function () {
-	gulp.src('./site/dist/*.css')
+function minifyCss() {
+	return src('./site/dist/*.css')
 		.pipe(cleancss())
-		.pipe(gulp.dest('./site/dist/min'));
-});
+		.pipe(dest('./site/dist/min'))
+}
 
-gulp.task('font-awesome', function () {
-	gulp.src('./node_modules/@fortawesome/fontawesome-free/css/all.css')
-		.pipe(gulp.dest('./site/dist/font-awesome/css/'));
-	gulp.src('./node_modules/@fortawesome/fontawesome-free/webfonts/*')
-		.pipe(gulp.dest('./site/dist/font-awesome/webfonts/'));
-});
+function fa() {
+	status = src('./node_modules/@fortawesome/fontawesome-free/css/all.css')
+		.pipe(dest('./site/dist/font-awesome/css/'));
+	status = src('./node_modules/@fortawesome/fontawesome-free/webfonts/*')
+		.pipe(dest('./site/dist/font-awesome/webfonts/'));
+
+	return status
+}
+
+exports.compileLess = compileLess;
+exports.minifyCss = minifyCss;
+exports.fa = fa;
+exports.default = series(compileLess, minifyCss, fa);
