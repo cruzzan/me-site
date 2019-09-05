@@ -15,9 +15,16 @@ Install
 **Build and run**
 
 ```
+# Install JS dependencies
 $ yarn install
+
+# Build assets and copy things to dist folder
 $ npm run build
+
+# Build the docker image
 $ make build
+
+# Start the image using compose
 $ make compose
 ```
 
