@@ -1,12 +1,13 @@
 SHELL := /bin/bash
 IMAGE_NAME := sebastianhultstrand/me-site:latest
+TAG ?= untagged
 
 .PHONY: build
 build:
 	@echo "Building image"
 	docker buildx build \
 	--platform linux/arm/v7,linux/amd64 \
-	-t sebastianhultstrand/me-site:v1.0 \
+	-t sebastianhultstrand/me-site:$(TAG) \
 	--push \
 	.
 

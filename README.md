@@ -25,7 +25,7 @@ $ npm run build
 $ docker login
 
 # Build the docker image
-$ make build
+$ TAG=[Version] make build
 
 # Start the image using compose
 $ make compose-dev
