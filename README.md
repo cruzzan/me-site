@@ -6,7 +6,7 @@ Install
 
 **Requirements**
 
-* [Docker](https://www.docker.com/get-started)
+* [Docker 19.03+](https://github.com/docker/docker-ce/releases/tag/v19.03.3-beta1)
 * [Docker compose](https://docs.docker.com/compose/install)
 * [Node.js and npm](https://nodejs.org/en/)
 * [Yarn](https://yarnpkg.com/en/docs/install)
@@ -21,11 +21,14 @@ $ yarn install
 # Build assets and copy things to dist folder
 $ npm run build
 
+# Log into docker registry
+$ docker login
+
 # Build the docker image
 $ make build
 
 # Start the image using compose
-$ make compose
+$ make compose-dev
 ```
 
 **Dev**
