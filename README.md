@@ -29,6 +29,9 @@ $ TAG=[Version] make build
 
 # Start the image using compose
 $ make compose-dev
+
+# Install to a custer using helm
+$ helm install [NameOfTheApp] helm/webapp/
 ```
 
 **Dev**
@@ -36,3 +39,14 @@ $ make compose-dev
 Running this project in dev mode will expose port 8080 
 and also creates a volume connecting the host directory
 to the web directory in the container
+
+**Production**
+
+There is a helm chart available for the project now so
+that this site can be deployed to a k8s cluster.
+
+* The cluster needs to be v 1.18+
+* Running nginx-ingress and cert-manager 0.16.0
+
+See build and run for the command to install the
+me-site in a k8s cluster using helm.
