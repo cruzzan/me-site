@@ -17,7 +17,6 @@ compose-dev:
 	@IMAGE_NAME=$(IMAGE_NAME) \
 	docker-compose \
 	-f compose/docker-compose.yml \
-	-f compose/docker-compose-dev.yml \
 	up \
 	--force-recreate \
 	-d
