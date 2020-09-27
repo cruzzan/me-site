@@ -1,20 +1,23 @@
 root = true
 
+# 2 space indent
+[{*.json, *.yaml, *.yml, *.html}]
+indent_size = 2
+
+# 4 space indent
+[{*.php, Makefile}]
+indent_size = 4
+
+# Spaces
+[{*.yaml, *.yml, *.php, *.json}]
+indent_style = space
+
+# Tabs
+# []
+# indent_style = tab
+
+# Default values
 # Unix-style newlines with a newline ending every file
 [*]
 end_of_line = lf
 insert_final_newline = true
-indent_style = tab
-indent_size = 2
-
-# Makefile
-[Makefile]
-indent_size = 4
-
-# Package.json
-[package.json]
-indent_style = space
-
-# YAML
-indent_style = space
-indent_size = 2
