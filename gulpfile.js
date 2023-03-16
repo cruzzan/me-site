@@ -23,7 +23,17 @@ function fa() {
 	return status
 }
 
+function materialize() {
+	status = src('./node_modules/materialize-css/dist/css/materialize.css')
+		.pipe(dest('./site/dist/materializecss/css/'));
+	status = src('./node_modules/materialize-css/dist/js/materialize.js')
+		.pipe(dest('./site/dist/materializecss/js/'));
+
+	return status
+}
+
 exports.compileLess = compileLess;
 exports.minifyCss = minifyCss;
 exports.fa = fa;
-exports.default = series(compileLess, minifyCss, fa);
+exports.materialize = materialize;
+exports.default = series(compileLess, minifyCss, fa, materialize);
