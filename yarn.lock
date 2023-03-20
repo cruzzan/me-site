@@ -379,6 +379,10 @@ color-support@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
 
+commander@~2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.13.0.tgz#6964bca67685df7c1f1430c584f07d7597885b9c"
+
 component-emitter@^1.2.1:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
@@ -850,6 +854,14 @@ gulp-less@^4.0.1:
     replace-ext "^1.0.0"
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
+
+gulp-minify-inline-js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-minify-inline-js/-/gulp-minify-inline-js-1.0.0.tgz#2da44d0e53122456379a29ae441defdc3acc11c6"
+  dependencies:
+    plugin-error "^1.0.1"
+    through2 "^2.0.3"
+    uglify-es "^3.3.9"
 
 gulp@^4.0.2:
   version "4.0.2"
@@ -1544,7 +1556,7 @@ pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
 
-plugin-error@1.0.1:
+plugin-error@1.0.1, plugin-error@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/plugin-error/-/plugin-error-1.0.1.tgz#77016bd8919d0ac377fdcdd0322328953ca5781c"
   dependencies:
@@ -1814,7 +1826,7 @@ source-map@^0.5.1, source-map@^0.5.6, source-map@~0.5.1:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
-source-map@~0.6.0:
+source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
@@ -1986,6 +1998,13 @@ type@^2.7.2:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+
+uglify-es@^3.3.9:
+  version "3.3.9"
+  resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.3.9.tgz#0c1c4f0700bed8dbc124cdb304d2592ca203e677"
+  dependencies:
+    commander "~2.13.0"
+    source-map "~0.6.1"
 
 uglify-js@^2.8.22:
   version "2.8.29"

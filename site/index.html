@@ -1,471 +1,750 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
 	<!-- Compiled and minified CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+	<link rel="stylesheet" href="dist/materializecss/css/materialize.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import Google Icon Font-->
 
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-	<link rel="stylesheet" href="dist/main.css">
+	<link rel="stylesheet" href="dist/min/main.css">
 	<link rel="stylesheet" href="dist/font-awesome/css/all.css">
 
 	<meta charset="UTF-8">
-	<title>Sebastian - Cruzzan</title>
+	<title>CV - Sebastian Hultstrand</title>
 </head>
-<body class="blue-grey darken-3 white-text">
-
-	<!-- Navbar and menu -->
-	<header class="hide-on-small-only">
-		<ul class="sidenav sidenav-fixed grey darken-3 z-depth-2">
-			<a href="#">
-				<h4 class="white-text border-bottom center-align">Buzzwords</h4>
-			</a>
-			<li>
-				<div class="divider"></div>
-			</li>
-			<li class="bold">
-				<div class="row">
-					<div class="col s12 center-align">
-						<i class="material-icons grey-text text-lighten-2 fas fa-language"></i>
-					</div>
-					<div class="col s12">
-						<span class="tag pink darken-1 z-depth-2">swedish</span>
-						<span class="tag pink darken-1 z-depth-2">english</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col s12 center-align">
-						<i class="material-icons grey-text text-lighten-2 fas fa-wrench"></i>
-					</div>
-					<div class="col s12">
-						<span class="tag amber darken-1 z-depth-2">docker</span>
-						<span class="tag amber darken-1 z-depth-2">git</span>
-						<span class="tag amber darken-1 z-depth-2">terraform</span>
-						<span class="tag amber darken-1 z-depth-2">docker swarm</span>
-						<span class="tag amber darken-1 z-depth-2">sql</span>
-						<span class="tag amber darken-1 z-depth-2">amqp</span>
-						<span class="tag amber darken-1 z-depth-2">kafka</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col s12 center-align">
-						<i class="material-icons grey-text text-lighten-2 fas fa-code"></i>
-					</div>
-					<div class="col s12">
-						<span class="tag light-blue z-depth-2">php</span>
-						<span class="tag light-blue z-depth-2">golang</span>
-						<span class="tag light-blue z-depth-2">html</span>
-						<span class="tag light-blue z-depth-2">css</span>
-						<span class="tag light-blue z-depth-2">javascript</span>
-						<span class="tag light-blue z-depth-2">bash</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col s12 center-align">
-						<i class="material-icons grey-text text-lighten-2 fas fa-cloud"></i>
-					</div>
-					<div class="col s12">
-						<span class="tag green z-depth-2">aws</span>
-						<span class="tag green z-depth-2">scaleway</span>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="divider"></div>
-			</li>
-			<li class="bold">
-				<a class="wave-effect grey-text text-lighten-2" href="https://github.com/cruzzan" target="_blank">
-					Github
-					<i class="material-icons right grey-text text-lighten-2 fab fa-github"></i>
-				</a>
-			</li>
-			<li class="bold">
-				<a class="wave-effect grey-text text-lighten-2" href="https://www.linkedin.com/in/sebastian-hultstrand-15151a60" target="_blank">
-					LinkedIn
-					<i class="material-icons right grey-text text-lighten-2 fab fa-linkedin"></i>
-				</a>
-			</li>
-			<li class="bold">
-				<a class="wave-effect grey-text text-lighten-2" href="https://keybase.io/cruzzan" target="_blank">
-					Keybase.io
-					<i class="material-icons right grey-text text-lighten-2 fab fa-keybase"></i>
-				</a>
-			</li>
-		</ul>
-	</header>
+<body>
 
 		<!-- Content -->
 		<main>
 			<div class="container">
 				<div class="row col s12"><!-- Spacer --></div>
 
+        <!-- Profile -->
 				<div class="row">
-					<div class="col .hide-on-small-only m3 l4"></div>
-					<div class="col s12 m6 l4">
-						<img class="responsive-img circle" src="resources/img/profile.png" alt="A picture of me">
-					</div>
+          <div class="col s12 m6">
+            <div class="col s6 offset-s3">
+              <img class="responsive-img circle" src="resources/img/profile.jpg" alt="A picture of me">
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <h4>Sebastian Hultstrand</h4>
+            <p><b>Product</b> oriented <b>fullstack</b> developer, and <b>DevOps</b> enthusiast</p>
+            <p>Building <b>web</b> based <b>SaaS</b> plattforms for <b>12 years</b>, and counting</p>
+            <p><b>BCS</b> level education, web programming</p>
+          </div>
 				</div>
 
-				<h4 class="white-text border-bottom center-align">Sebastian</h4>
+        <hr>
 
-				<div class="row container col s12 m8 offset-m1 xl7 offset-xl1">
-					<h3><i class="fas fa-search"></i> About me</h3>
-					<div class="row">
-						<div class="col s12">
-							<div class="card blue-grey darken-1">
-								<div class="card-content white-text">
-									<p class="flow-text">
-										I am a generally happy and positive guy born in Sweden back
-										in '92. I was raised in the countryside and have always
-										enjoyed the peace and freedom of being close to nature.
-									</p>
-									<br>
-									<p class="flow-text">
-										I enjoy hiking, kayaking, fishing and camping (All at a
-										*very* novice level). I love to ski downhill. I play golf,
-										rather poorly but still. And in 2018 I got a skippers
-										certification along with some family, just for fun.
-									</p>
-									<br>
-									<p class="flow-text">
-										I went to school in a very small town not too far from
-										Gothenburg. Apart from year 7-9 which i spent in Melbourne,
-										Australia. After high school I got my first job as a
-										software engineer but after a year I decided that I should
-										probably get an education. So I moved to Karlskrona to
-										study. When I was finished there I moved to Gothenburg to
-										get started with my career.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+        <div class="row">
+          <div class="col s12 center">
+            <a class="btn waves-effect waves-light grey darken-3" href="https://github.com/cruzzan">
+              <i class="tiny fab fa-github"></i>
+              /cruzzan
+            </a>
+            <a class="btn waves-effect waves-light blue" href="https://keybase.io/cruzzan">
+              <i class="tiny fab fa-keybase"></i>
+              /cruzzan
+            </a>
+            <a class="btn waves-effect waves-light blue darken-3" href="https://www.linkedin.com/in/sebastian-hultstrand-15151a60">
+              <i class="tiny fab fa-linkedin"></i>
+              /in/sebastian-hultstrand-15151a60
+            </a>
+          </div>
+        </div>
 
-				<div class="hide-on-med-and-up">
-					<div class="row container col s12 m8 offset-m1 xl7 offset-xl1">
-						<h3><i class="fas fa-info-circle"></i> Buzzwords</h3>
-						<div class="row">
-							<div class="col s12">
-								<div class="card blue-grey darken-1">
-									<div class="card-content white-text">
-										<span class="card-title"><i class="material-icons grey-text text-lighten-2 fas fa-language"></i></span>
-										<span class="tag pink darken-1 z-depth-2">swedish</span>
-										<span class="tag pink darken-1 z-depth-2">english</span>
-									</div>
-									<div class="card-content white-text">
-										<span class="card-title"><i class="material-icons grey-text text-lighten-2 fas fa-wrench"></i></span>
-										<span class="tag amber darken-1 z-depth-2">docker</span>
-										<span class="tag amber darken-1 z-depth-2">git</span>
-										<span class="tag amber darken-1 z-depth-2">terraform</span>
-										<span class="tag amber darken-1 z-depth-2">docker swarm</span>
-										<span class="tag amber darken-1 z-depth-2">sql</span>
-										<span class="tag amber darken-1 z-depth-2">amqp</span>
-										<span class="tag amber darken-1 z-depth-2">kafka</span>
-									</div>
-									<div class="card-content white-text">
-										<span class="card-title"><i class="material-icons grey-text text-lighten-2 fas fa-code"></i></span>
-										<span class="tag light-blue z-depth-2">php</span>
-										<span class="tag light-blue z-depth-2">golang</span>
-										<span class="tag light-blue z-depth-2">html</span>
-										<span class="tag light-blue z-depth-2">css</span>
-										<span class="tag light-blue z-depth-2">javascript</span>
-										<span class="tag light-blue z-depth-2">bash</span>
-									</div>
-									<div class="card-content white-text">
-										<span class="card-title"><i class="material-icons grey-text text-lighten-2 fas fa-cloud"></i></span>
-										<span class="tag green z-depth-2">aws</span>
-										<span class="tag green z-depth-2">scaleway</span>
-									</div>
-									<div class="card-action">
-										<a href="https://github.com/cruzzan">
-											<i class="material-icons tiny grey-text text-lighten-2 fab fa-github"></i>
-											Github
-										</a>
-										<a href="https://www.linkedin.com/in/sebastian-hultstrand-15151a60">
-											<i class="material-icons tiny grey-text text-lighten-2 fab fa-linkedin"></i>
-											LinkedIn
-										</a>
-										<a href="https://keybase.io/cruzzan">
-											<i class="material-icons tiny grey-text text-lighten-2 fab fa-keybase"></i>
-											Keybase.io
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+        <hr>
+        <div class="row">
+          <div class="col s12 l10 offset-l1">
+            <h4><i class="small fas fa-search"></i> About me</h4>
+            <p>
+              I am a generally happy and positive guy born in Sweden back
+              in '92. I was raised in the countryside and have always
+              enjoyed the peace and freedom of being close to nature.
+            </p>
+            <p>
+              I enjoy hiking, kayaking, fishing and camping (All at a
+              *very* novice level). I love to ski downhill. I play golf,
+              rather poorly but still. And in 2018 I got a skipper
+              certification along with some family, just for fun.
+            </p>
+            <p>
+              I went to school in a very small town not too far from
+              Gothenburg. Apart from year 7-9 which i spent in Melbourne,
+              Australia. After high school I got my first job as a
+              software engineer but after a year I decided that I should
+              probably get an education. So I moved to Karlskrona to
+              study. When I was finished there I moved to Gothenburg to
+              get started with my career.
+            </p>
+          </div>
+        </div>
 
-				<div class="row container col s12 m8 offset-m1 xl7 offset-xl1">
-					<h3><i class="fas fa-briefcase"></i> Career so far</h3>
+        <hr>
 
-					<div class="row">
-						<div class="col s12">
-							<div class="card blue-grey darken-1">
-								<div class="card-content white-text">
-									<span class="card-title">
-										<h4>Backend/DevOps<span class="right" title="2 years 5 months">2017 - Now</span></h4>
+        <div class="row">
+          <div class="col s12">
+            <ul class="collapsible expandable timeline">
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2022.10</b> - Consulting for Balance Golf</h6></div>
+                <div class="collapsible-body">
+                  This is a longer text!
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2021.09</b> - Consulting for Evimeria/Carasent</h6></div>
+                <div class="collapsible-body">
+                  This is a longer text!
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2019.11</b> - Consulting for SMSPark/Easypark</h6></div>
+                <div class="collapsible-body">
+                  This is a longer text!
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2019.11</b> - Founding of West Coast Dev</h6></div>
+                <div class="collapsible-body">
+                  This is a longer text!
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2019.09</b> - Acquisition by Easypark</h6></div>
+                <div class="collapsible-body">
+                  This is a longer text!
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2017.05</b> - Start at SMSPark</h6></div>
+                <div class="collapsible-body">
+                  <h4>Backend/DevOps<span class="right" title="2 years 5 months">2017 - 2019</span></h4>
+                  <a href="https://www.smspark.se" class="btn btn-flat"><h6>Smspark (Inteleon)</h6></a>
+                  <hr>
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <p>
+                        Part of the team that worked with developing the
+                        platform and business case for long term and
+                        requirements based parking aka permits.
+                      </p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p>
+                        In charge of the migration of the permit platform,
+                        from dedicated, long lived, servers over to docker
+                        swarm. This was also when we built a full
+                        infrastructure-as-code setup for this platform.
+                      </p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p>
+                        Responsible for backend and infrastructure in the parker
+                        facing team after the department was reorganized.
+                      </p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p>
+                        Spent a lot of energy on teamwork and agile efforts to
+                        build a more autonomous and well rounded team that could
+                        OWN their products
+                      </p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p>
+                        I was a part of the group that managed the
+                        infrastructure and were on-call for the operations of
+                        the services.
+                      </p>
+                    </div>
+                  </div>
+                  <hr>
+                  <p>
+                    At Inteleon I really got to start my journey towards the
+                    DevOps lifestyle and I was fortunate enough to get to work
+                    along side some very talented and forward thinking people.
+                    The bosses, the teammates, coaches and other people
+                    in the organization all contributed to teaching me so many
+                    new things and helping me improve my life in general.
+                  </p>
+                  <p>
+                    Some of the trails that we walked down were; monolith ->
+                    service oriented architecture, Php -> Golang, static servers
+                    with little scalability -> container orchestration. We did
+                    not get to the end of all of these trails, but we made some
+                    good headway and learned a lot.
+                  </p>
+                  <hr>
+                  <span class="tag-container">
+                    <span class="tag green darken-3">Php</span>
+                    <span class="tag green darken-3">Golang</span>
+                    <span class="tag green darken-3">AWS</span>
+                    <span class="tag green darken-3">Docker</span>
+                    <span class="tag green darken-3">Terraform</span>
+                    <span class="tag green darken-3">Mysql</span>
+                    <span class="tag green darken-3">Bash</span>
+                    <span class="tag green darken-3">Css</span>
+                    <span class="tag green darken-3">Html</span>
+                    <span class="tag green darken-3">Javascript (Jquery)</span>
+                    <span class="tag green darken-3">Git</span>
+                    <span class="tag green darken-3">TDD</span>
 									</span>
-									<h6>Smspark (Inteleon)</h6>
-									<hr>
-									<div class="row">
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												Part of the team that worked with developing the
-												platform and business case for long term and
-												requirements based parking aka permits.
-											</p>
-										</div>
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												In charge of the migration of the permit platform,
-												from dedicated, long lived, servers over to docker
-												swarm. This was also when we built a full
-												infrastructure-as-code setup for this platform.
-											</p>
-										</div>
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												Responsible for backend and infrastructure in the parker
-												facing team after the department was reorganized.
-											</p>
-										</div>
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												Spent a lot of energy on teamwork and agile efforts to
-												build a more autonomous and well rounded team that could
-												OWN their products
-											</p>
-										</div>
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												I was a part of the group that managed the
-												infrastructure and were on-call for the operations of
-												the services.
-											</p>
-										</div>
-									</div>
-									<br>
-									<p class="flow-text">
-										At Inteleon I really got to start my journey towards the
-										DevOps lifestyle and I was fortunate enough to get to work
-										along side some very talented and forward thinking people.
-										The bosses, the teammates, coaches and other people
-										in the organization all contributed to teaching me so many
-										new things and helping me improve my life in general.
-									</p>
-									<br>
-									<p class="flow-text">
-										Some of the trails that we walked down were; monolith ->
-										service oriented architecture, Php -> Golang, static servers
-										with little scalability -> container orchestration. We did
-										not get to the end of all of these trails, but we made some
-										good headway and learned a lot.
-									</p>
-									<hr>
-									<span class="tag-container">
-										<span class="tag teal">Php</span>
-										<span class="tag teal">Golang</span>
-										<span class="tag teal">AWS</span>
-										<span class="tag teal">Terraform</span>
-										<span class="tag teal">Mysql</span>
-										<span class="tag teal">Bash</span>
-										<span class="tag teal">Css</span>
-										<span class="tag teal">Html</span>
-										<span class="tag teal">Javascript (Jquery)</span>
-										<span class="tag teal">Git</span>
-										<span class="tag teal">TDD</span>
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2015.08</b> - Start at Advance</h6></div>
+                <div class="collapsible-body">
+                  <h4>System developer <span class="right" title="1 years 10 months">2015 - 2017</span></h4>
+                  <a href="https://evimeria.se/" class="btn btn-flat"><h6>Webdoc</h6></a>
+                  <a href="https://www.advania.se/" class="btn btn-flat"><h6>(Advance/TeleComputing)</h6></a>
+                  <hr>
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <p>
+                        Building the new printing functionality for the system
+                        using a printer integration application for web systems.
+                      </p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p>
+                        Working with preparing the system and processes to be
+                        compatible with CE certification.
+                      </p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p>
+                        Large scale database remodelling.
+                      </p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p>
+                        New file/document management module for the journaling
+                        system.
+                      </p>
+                    </div>
+                  </div>
+                  <hr>
+                  <p>
+                    Among the things I was in charge of are, demoing the new
+                    features and handling final integration and merge
+                    before the regression begins.
+                  </p>
+                  <p>
+                    During this time I was also part of the cementing of our
+                    development processes and our semi-continuous integration
+                    flows.
+                  </p>
+                  <hr>
+                  <span class="tag-container">
+                    <span class="tag green darken-3">Php</span>
+                    <span class="tag green darken-3">Mysql</span>
+                    <span class="tag green darken-3">Css</span>
+                    <span class="tag green darken-3">Html</span>
+                    <span class="tag green darken-3">Javascript (Jquery)</span>
+                    <span class="tag green darken-3">Git</span>
+                    <span class="tag green darken-3">TDD</span>
+                    <span class="tag green darken-3">BDD</span>
 									</span>
-									<div class="card-action">
-										<a href="https://smspark.se/">Company</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col s12">
-							<div class="card blue-grey darken-1">
-								<div class="card-content white-text">
-									<span class="card-title">
-										<h4>System developer <span class="right" title="1 years 10 months">2015 - 2017</span></h4>
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2014.03</b> - Part time for @Lan</h6></div>
+                <div class="collapsible-body">
+                  <h4> Web developer <span class="right" title="~9 months">2014</span></h4>
+                  <a href="#" class="btn btn-flat"><h6>Atlan</h6></a>
+                  <p>
+                    In the early parts of 2014 I started working with Roofia
+                    again, part-time. We were planning on rebuilding a lot of
+                    what had been built so far, and aiming for the system to
+                    work well on iPads.
+                  </p>
+                  <p>
+                    During this time I learned a lot about working with a
+                    customer directly. I also learned the hard way, when, why
+                    and how, I should pull out of a partnership. Because, as an
+                    inexperienced, ambitious, full time student, I made a lot of
+                    mistakes. Most harmfully for both the customer and me,
+                    I failed to communicate that I was incapable of meeting
+                    their needs and nearing burn-out, and almost flunking out,
+                    at the end.
+                  </p>
+                  <hr>
+                  <span class="tag-container">
+                    <span class="tag green darken-3">Php</span>
+                    <span class="tag green darken-3">Mysql</span>
+                    <span class="tag green darken-3">Css</span>
+                    <span class="tag green darken-3">Html</span>
+                    <span class="tag green darken-3">Javascript (Jquery, JQ mobile)</span>
 									</span>
-									<h6>Webdoc (Advance/TeleComputing)</h6>
-									<hr>
-									<div class="row">
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												Building the new printing functionality for the system
-												using a printer integration application for web systems.
-											</p>
-										</div>
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												New file/document management module for the system.
-											</p>
-										</div>
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												Large scale database remodelling.
-											</p>
-										</div>
-										<div class="col s12">
-											<p class="flow-text">
-												<i class="tiny fas fa-chevron-right orange-text"></i>
-												Working with preparing the system and processes to be
-												compatible with CE certification.
-											</p>
-										</div>
-									</div>
-									<br>
-									<p class="flow-text">
-										Among the things I am in charge of are, demoing the new
-										features and also handling final integration and merge
-										before the regression begins.
-									</p>
-									<br>
-									<p class="flow-text">
-										During this time I was also part of the cementing of our
-										development processes and our semi-continuous integration
-										flows.
-									</p>
-									<hr>
-									<span class="tag-container">
-										<span class="tag teal">Php</span>
-										<span class="tag teal">Mysql</span>
-										<span class="tag teal">Css</span>
-										<span class="tag teal">Html</span>
-										<span class="tag teal">Javascript (Jquery)</span>
-										<span class="tag teal">Git</span>
-										<span class="tag teal">TDD</span>
-										<span class="tag teal">BDD</span>
-									</span>
-									<div class="card-action">
-										<a href="https://evimeria.se/">Company</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2013.06</b> - Summer internships</h6></div>
+                <div class="collapsible-body">
+                  <h4> Web developer / Support <span class="right" title="2 summers">2013 - 2014</span></h4>
+                  <a href="#" class="btn btn-flat green darken-3"><h6>Atlan</h6></a>
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2012.08</b> - Started at BTH</h6></div>
+                <div class="collapsible-body">
+                  <h4>Web programming (Ba. Comp Sci)<span class="right" title="3 years">2012 - 2015</span></h4>
+                  <a href="https://www.bth.se/" class="btn btn-flat"><h6>Bleking institute of technology</h6></a>
+                  <p>
+                    A 3 year bachelors program in software engineering. The
+                    program had a web profile and focused a lot more on
+                    practical learning than on for example maths, as traditional
+                    computer science programs would.
+                  </p>
+                  <p>
+                    During my time at BTH I was also participating in a lot of
+                    extracurricular and social activates surrounding the student
+                    union. For example, I was the head of the WebDev for the
+                    student union's IT committee.
+                  </p>
+                </div>
+              </li>
+              <li class="event">
+                <div class="collapsible-header content"><h6><b>2011.06</b> - Started at @Lan</h6></div>
+                <div class="collapsible-body">
+                  <h4> Web developer <span class="right" title="1 years 3 months">2011 - 2012</span></h4>
+                  <a href="#" class="btn btn-flat"><h6>Atlan</h6></a>
+                  <p>
+                    This was my first job in development. I was doing
+                    some very basic and very poor systems development and web
+                    development. Getting a little more advanced with some mobile
+                    aimed web systems, based on JQ mobile.
+                  </p>
+                  <p>
+                    There were also some activities around operations, in the
+                    context of the web hotel side of the business. Mostly
+                    messing around with settings in Apache and a CMS system
+                    called Arctic fox.
+                  </p>
+                  <p>
+                    Most notably I was building a work management system for a
+                    roof maintenance franchise called Roofia.
+                  </p>
+                  <hr>
+                  <span class="tag-container">
+                    <span class="tag green darken-3">Php</span>
+                    <span class="tag green darken-3">Mysql</span>
+                    <span class="tag green darken-3">Css</span>
+                    <span class="tag green darken-3">Html</span>
+                    <span class="tag green darken-3">Javascript (Jquery)</span>
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-					<div class="row">
-						<div class="col s12">
-							<div class="card blue-grey darken-1">
-								<div class="card-content white-text">
-									<span class="card-title">
-										<h4> Web developer <span class="right" title="2 years 5 months">2011 - 2014</span></h4>
-									</span>
-									<h6>Atlan</h6>
-									<hr>
-									<p class="flow-text">
-										This was my first job in development. I was basically doing
-										some very basic and very poor systems development and web
-										development. Getting a little more advanced with some mobile
-										aimed web development.
-									</p>
-									<br>
-									<p class="flow-text">
-										Most notably I was building a work management system for a
-										roof maintenance franchise called Roofia. But in the later
-										stints where I was working part time during my studies I
-										also got to work on the WebDoc system more.
-									</p>
-									<hr>
-									<span class="tag-container">
-										<span class="tag teal">Php</span>
-										<span class="tag teal">Mysql</span>
-										<span class="tag teal">Css</span>
-										<span class="tag teal">Html</span>
-										<span class="tag teal">Javascript (Jquery)</span>
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+        <div class="row">
+          <div class="col s12 m6">
+            <table class="striped">
+              <thead>
+              <tr>
+                <th style="width: 75%"><i class="fas fa-code small"></i></th>
+                <th style="width: 25%"></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Php</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Golang</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Javascript</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Bash</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>HTML5 / CSS / SCSS</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
 
-				<div class="row container col s12 m8 offset-m1 xl7 offset-xl1">
-					<h3><i class="fas fa-graduation-cap"></i> Eduction</h3>
-					<div class="row">
-						<div class="col s12">
-							<div class="card blue-grey darken-1">
-								<div class="card-content white-text">
-									<span class="card-title">
-										<h4>Web programming (Ba. Comp Sci)<span class="right">2012 - 2015</span></h4>
-									</span>
-									<h6>Bleking institute of technology</h6>
-									<p class="flow-text">
-										A 3 year bachelors program in software engineering. The
-										program had a web profile and focused a lot more on
-										practical learning than on for example maths, as traditional
-										computer science programs would.
-									</p>
-									<br>
-									<p class="flow-text">
-										During my time at BTH I was also participating in a lot of
-										extra curricular and social activates around the student
-										union. For example I was the head of the WebDev for the
-										student union's IT committee.
-									</p>
-								</div>
-								<div class="card-action">
-									<a href="https://www.bth.se/">School</a>
-									<a href="https://www.bth.se/utbildning/program/pagwe19h/">Program</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+          <div class="col s12 m6">
+            <table class="striped">
+              <thead>
+              <tr>
+                <th style="width: 75%"><i class="fas fa-cloud small"></i></th>
+                <th style="width: 25%"></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Docker swarm</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Kubernetes</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>AWS</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>GCP</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Scaleway</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Digital Ocean</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
 
-			<div class="container row col s12 m8 offset-m1 xl7 offset-xl1">
-				<!-- Links card -->
-				<div class="card blue-grey darken-1 z-depth-2">
-					<div class="card-content">
-						<span class="card-title">
-							Good ol' links
-							<i class="material-icons left grey-text text-lighten-2">open_in_new</i>
-						</span>
-						<a class="btn" target="_blank" href="https://github.com/cruzzan/dotfiles">My dotfiles</a>
-						<a class="btn" target="_blank" href="https://www.shellcheck.net/">Shell check</a>
-						<a class="btn" target="_blank" href="https://sourcemaking.com/">Design patterns</a>
-						<a class="btn" target="_blank" href="https://adventofcode.com/">Advent of code</a>
-						<a class="btn" target="_blank" href="https://github.com/tmux-python/tmuxp">Tmux session manager</a>
-						<a class="btn" target="_blank" href="https://configure.ergodox-ez.com/keyboard_layouts/kxpzld/edit">Ergodox config</a>
-					</div>
-				</div>
-			</div>
+          <div class="col s12 m6">
+            <table class="striped">
+              <thead>
+              <tr>
+                <th style="width: 75%"><i class="fas fa-database small"></i></th>
+                <th style="width: 25%"></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>PostgreSQL</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>MySQL / MariaDB</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Kafka</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>S3</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Elastic</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>AMQP</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
 
-			<div class="container">
-				<div class="row">
-					<div class="col s12 m6">
-						<img class="responsive-img z-depth-5" src="resources/img/stone-arch.jpg" alt="Some stones">
-					</div>
-					<div class="col s12 m6">
-						<img class="responsive-img z-depth-5" src="resources/img/stone-portal.jpg" alt="Some stones">
-					</div>
-					<div class="col s12 m6">
-						<img class="responsive-img z-depth-5" src="resources/img/stone-towers.jpg" alt="Some stones">
-					</div>
-				</div>
-			</div>
+          <div class="col s12 m6">
+            <table class="striped">
+              <thead>
+              <tr>
+                <th style="width: 75%"><i class="fas fa-server small"></i></th>
+                <th style="width: 25%"></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Docker</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Terraform</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Nginx</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Apache</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Vault</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Elastic search</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
 
-		</main>
+          <div class="col s12 m6">
+            <table class="striped">
+              <thead>
+              <tr>
+                <th style="width: 75%"><i class="fas fa-language small"></i></th>
+                <th style="width: 25%"></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Swedish (Native)</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>English</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col s12 m6">
+            <table class="striped">
+              <thead>
+              <tr>
+                <th style="width: 75%"><i class="fas fa-terminal small"></i></th>
+                <th style="width: 25%"></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Linux (Ubuntu, Arch, Alpine)</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Mac OSX</td>
+                <td>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  <footer class="page-footer green darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5>Thanks for stopping by</h5>
+        </div>
+        <div class="col l6 s12">
+          <h5>Links</h5>
+          <ul>
+            <li><a href="https://github.com/cruzzan" class="grey-text text-lighten-3">Github</a></li>
+            <li><a href="https://keybase.io/cruzzan" class="grey-text text-lighten-3">Keybase</a></li>
+            <li><a href="https://www.linkedin.com/in/sebastian-hultstrand-15151a60" class="grey-text text-lighten-3">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright green darken-4">
+      <div class="container">
+      </div>
+    </div>
+  </footer>
 
 	<!-- Compiled and minified JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+	<script src="./dist/materializecss/js/materialize.js"></script>
+	<script src="./dist/min/main.js"></script>
 </body>
 </html>

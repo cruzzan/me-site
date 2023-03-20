@@ -1,6 +1,7 @@
 const {src, dest, series} = require('gulp');
 const less = require('gulp-less');
 const cleancss = require('gulp-clean-css');
+const jsminify = require('gulp-minify-inline-js');
 
 function compileLess() {
 	return src('./site/less/*.less')
@@ -32,8 +33,16 @@ function materialize() {
 	return status
 }
 
+function tsCompile() {
+	return src('./site/js/main.js')
+		.pipe(dest('./site/dist'))
+		.pipe(jsminify())
+		.pipe(dest('./site/dist/min'));
+}
+
 exports.compileLess = compileLess;
 exports.minifyCss = minifyCss;
 exports.fa = fa;
 exports.materialize = materialize;
-exports.default = series(compileLess, minifyCss, fa, materialize);
+exports.tsCompile = tsCompile();
+exports.default = series(compileLess, minifyCss, fa, materialize, tsCompile);
