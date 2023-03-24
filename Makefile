@@ -21,3 +21,12 @@ compose-dev:
 	--force-recreate \
 	-d
 	@echo "Done!"
+
+.PHONY: build-dist
+build-dist:
+	@npm run build
+
+.PHONY: pack-tar-ball
+DATE = $(shell date -I)
+pack-tar-ball: build-dist
+	@cd site/ && tar -czf ../me-$(DATE).tar.gz index.html dist/ resources/ && cd ..

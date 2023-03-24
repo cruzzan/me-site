@@ -6,3 +6,6 @@ node_modules
 
 ## Processed assets
 site/dist
+
+## Packaged tarball
+me-*.tar.gz
