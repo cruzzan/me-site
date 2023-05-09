@@ -88,3 +88,26 @@ a > i {
 	border-width: 10px 10px 10px 0;
 	border-color: transparent #eeeeee transparent transparent;
 }
+
+div.content > h6 {
+	margin-right: 35px;
+}
+
+li.event > div.content > div.arrow {
+	position: absolute;
+	margin: auto 0;
+	top: 0;
+	bottom: 0;
+	right: 24px;
+	height: 15px;
+	width: 15px;
+	border-left: 2px solid #1b5e20;
+	border-bottom: 2px solid #1b5e20;
+	transition-duration: 0.25s;
+	transform: rotate(45deg);
+}
+
+li.event.active > div.content > div.arrow {
+	transition-duration: 0.25s;
+	transform: rotate(-45deg);
+}
