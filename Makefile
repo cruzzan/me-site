@@ -27,6 +27,5 @@ build-dist:
 	@npm run build
 
 .PHONY: pack-tar-ball
-DATE = $(shell date -I)
 pack-tar-ball: build-dist
-	@cd site/ && tar -czf ../me-$(DATE).tar.gz index.html dist/ resources/ && cd ..
+	@cd site/ && tar -czf ../me-site.tar.gz index.html dist/ resources/ && cd ..
