@@ -18,7 +18,7 @@ function minifyCss() {
 function fa() {
 	status = src('./node_modules/@fortawesome/fontawesome-free/css/all.css')
 		.pipe(dest('./site/dist/font-awesome/css/'));
-	status = src('./node_modules/@fortawesome/fontawesome-free/webfonts/*')
+	status = src('./node_modules/@fortawesome/fontawesome-free/webfonts/*', {encoding: false})
 		.pipe(dest('./site/dist/font-awesome/webfonts/'));
 
 	return status
