@@ -12,10 +12,6 @@ indent_size = 4
 [{*.yaml, *.yml, *.php, *.json}]
 indent_style = space
 
-# Tabs
-# []
-# indent_style = tab
-
 # Default values
 # Unix-style newlines with a newline ending every file
 [*]
