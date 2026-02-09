@@ -18,7 +18,59 @@
     <link href="resources/favicon/site.webmanifest" rel="manifest">
 
     <meta charset="UTF-8">
-    <title>Sebastian Hultstrand</title>
+    <title>Sebastian Hultstrand - Product-Oriented Full-Stack Developer & DevOps Engineer</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Sebastian Hultstrand is a product-oriented full-stack developer and DevOps enthusiast with 12+ years of experience building web-based SaaS platforms. Specializing in Golang, PHP, Kubernetes, and AWS.">
+    <meta name="keywords" content="Sebastian Hultstrand, Full-Stack Developer, DevOps Engineer, Golang, PHP, Kubernetes, AWS, SaaS Development, Software Engineer Sweden">
+    <meta name="author" content="Sebastian Hultstrand">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hultstrand.me/">
+    <meta property="og:title" content="Sebastian Hultstrand - Product-Oriented Full-Stack Developer & DevOps Engineer">
+    <meta property="og:description" content="Product-oriented full-stack developer and DevOps enthusiast with 12+ years of experience building web-based SaaS platforms in Sweden.">
+    <meta property="og:image" content="https://hultstrand.me/resources/img/profile.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://hultstrand.me/">
+    <meta property="twitter:title" content="Sebastian Hultstrand - Product-Oriented Full-Stack Developer & DevOps Engineer">
+    <meta property="twitter:description" content="Product-oriented full-stack developer and DevOps enthusiast with 12+ years of experience building web-based SaaS platforms in Sweden.">
+    <meta property="twitter:image" content="https://hultstrand.me/resources/img/profile.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://hultstrand.me/">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sebastian Hultstrand",
+      "url": "https://hultstrand.me",
+      "image": "https://hultstrand.me/resources/img/profile.jpg",
+      "jobTitle": "Senior Software Engineer",
+      "description": "Product-oriented full-stack developer and DevOps enthusiast with 12+ years of experience",
+      "knowsAbout": ["Golang", "PHP", "JavaScript", "Kubernetes", "Docker", "AWS", "DevOps", "SaaS Development"],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Blekinge Institute of Technology"
+      },
+      "sameAs": [
+        "https://github.com/cruzzan",
+        "https://gitlab.com/cruzzan",
+        "https://keybase.io/cruzzan",
+        "https://www.linkedin.com/in/sebastian-hultstrand-15151a60"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Västra Götaland",
+        "addressCountry": "Sweden"
+      }
+    }
+    </script>
 </head>
 <body>
 
@@ -28,7 +80,7 @@
         <div class="row col s12"><!-- Spacer --></div>
 
         <!-- Profile -->
-        <div class="row">
+        <section aria-label="Profile" class="row">
             <div class="col s12 m6">
                 <div class="col s6 offset-s3">
                     <img alt="A picture of me" class="responsive-img circle" src="resources/img/profile.jpg">
@@ -40,37 +92,37 @@
                 <p>Building <b>web-based SaaS platforms</b> since <b>2011</b>.</p>
                 <p><b>Bachelor's</b> level education in web programming</p>
             </div>
-        </div>
+        </section>
 
         <hr>
 
-        <div class="row">
+        <section aria-label="Social Links" class="row">
             <div class="col s12 center">
-                <a class="btn waves-effect waves-light grey darken-3" href="https://github.com/cruzzan">
+                <a class="btn waves-effect waves-light grey darken-3" href="https://github.com/cruzzan" rel="noopener noreferrer" target="_blank" aria-label="GitHub Profile">
                     <i class="tiny fab fa-github"></i>
                     /cruzzan
                 </a>
-                <a class="btn waves-effect waves-light deep-orange darken-1" href="https://gitlab.com/cruzzan">
+                <a class="btn waves-effect waves-light deep-orange darken-1" href="https://gitlab.com/cruzzan" rel="noopener noreferrer" target="_blank" aria-label="GitLab Profile">
                     <i class="tiny fab fa-gitlab"></i>
                     /cruzzan
                 </a>
-                <a class="btn waves-effect waves-light blue" href="https://keybase.io/cruzzan">
+                <a class="btn waves-effect waves-light blue" href="https://keybase.io/cruzzan" rel="noopener noreferrer" target="_blank" aria-label="Keybase Profile">
                     <i class="tiny fab fa-keybase"></i>
                     /cruzzan
                 </a>
                 <a class="btn waves-effect waves-light blue darken-3"
-                   href="https://www.linkedin.com/in/sebastian-hultstrand-15151a60">
+                   href="https://www.linkedin.com/in/sebastian-hultstrand-15151a60" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn Profile">
                     <i class="tiny fab fa-linkedin"></i>
                     /in/sebastian-hultstrand-15151a60
                 </a>
             </div>
-        </div>
+        </section>
 
         <hr>
 
-        <div class="row">
+        <section aria-labelledby="about-heading" class="row">
             <div class="col s12 l10 offset-l1">
-                <h4><i class="small fas fa-search"></i> About me</h4>
+                <h2 id="about-heading"><i class="small fas fa-search"></i> About me</h2>
                 <p>
                     I am a software developer from western Sweden. I started my career
                     working with my cousin in 2011 and have since then developed a
@@ -98,12 +150,13 @@
                     get started with my career.
                 </p>
             </div>
-        </div>
+        </section>
 
         <hr>
 
-        <div class="row">
+        <section aria-labelledby="experience-heading" class="row">
             <div class="col s12">
+                <h2 id="experience-heading" class="sr-only">Professional Experience</h2>
                 <ul class="collapsible expandable timeline">
                     <li class="event">
                         <div class="collapsible-header content"><h6><b>2023.12</b> - Sendify - Senior software engineer</h6>
@@ -592,9 +645,10 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
 
-        <div class="row">
+        <section aria-labelledby="skills-heading" class="row">
+            <h2 id="skills-heading" class="sr-only">Technical Skills</h2>
             <div class="col s12 m6">
                 <table class="striped">
                     <thead>
@@ -969,7 +1023,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </section>
     </div>
 </main>
 

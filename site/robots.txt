@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hultstrand.me/sitemap.xml
